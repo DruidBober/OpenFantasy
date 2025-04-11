@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctjow3qtp5wup"]
+
+[ext_resource type="Script" uid="uid://k8h816jg8lex" path="res://fpsCounter.gd" id="1_wxsth"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_right = 125.0
+offset_bottom = 34.0
+text = "FPS: "
+scroll_fit_content_height = true
+scroll_fit_content_width = true
+script = ExtResource("1_wxsth")

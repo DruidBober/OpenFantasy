@@ -1,0 +1,5 @@
+res://scenes/levels/level.tscn
+res://scenes/entities/player.tscn
+res://Bullet.tscn
+res://line.tscn
+res://line.gd

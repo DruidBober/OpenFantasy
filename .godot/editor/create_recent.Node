@@ -1,0 +1,14 @@
+CSGBox3D
+MeshInstance3D
+CollisionShape3D
+StaticBody3D
+TextEdit
+CSGSphere3D
+Sprite2D
+Area3D
+CharacterBody3D
+SpringArm3D
+Node3D
+AnimationTree
+Camera3D
+WorldEnvironment

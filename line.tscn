@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bd7t28mftyu6g"]
+
+[ext_resource type="Script" uid="uid://dxogfjd5p7pl8" path="res://line.gd" id="1_084u5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_084u5"]
+albedo_color = Color(1, 0, 1, 1)
+
+[node name="Line" type="CSGBox3D"]
+size = Vector3(0.1, 0.1, 0.1)
+material = SubResource("StandardMaterial3D_084u5")
+script = ExtResource("1_084u5")
